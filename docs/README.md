@@ -143,6 +143,9 @@ _Return value_:
 ```
 # Project history
 ```
+* 80ddab9 (HEAD -> main) Testing implemented & some updates in markdown
+* eab0dab Test directort created & exception throws implemented & markdown updates and fixing typos
+* 04c1f53 (origin/new_features_lab2) documentation in markdown created docs/README.md\
 * 74a1c00 (HEAD -> main, origin/new_features_lab2) typo fixes
 * f9c29b7 description for every function added
 * d755497 (origin/main, origin/HEAD) new file triangle.py added & method perimetr in rectangle.py fixed
