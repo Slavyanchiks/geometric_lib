@@ -1,6 +1,7 @@
 # General information
 This library contains useful functions for comfortable implementation of geometry objects in your code.
 For each geometric structure determined functions of finding `area` and `perimeter`
+> Important! All the length values used as parameters in these function are non-negative as they are in the science of Math, the function will be throwing exception whether you try to input negative value.
 ### Geometric structures are:
 - Circle
 - Rectangle
@@ -148,5 +149,7 @@ _Return value_:
 * d078c8d L-03: Docs added
 * 8ba9aeb L-03: Circle and square added
 ```
+# Tests describtion
+The library comes with full unit testing in directory: `geometric_lib\tests` using Python standart library `unittest`. Enabling unit tests on command `$ python.exe -m unittest <name of file>_test`
 ### Sources
 > This markdown was created using [this useful GitHub Docs page](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
