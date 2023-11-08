@@ -2,6 +2,7 @@
 This library contains useful functions for comfortable implementation of geometry objects in your code.
 For each geometric structure determined functions of finding `area` and `perimeter`
 > Important! All the length values used as parameters in these function are non-negative as they are in the science of Math, the function will be throwing exception whether you try to input negative value.
+> Important! The function of triangle **do not** check whether the values satisfy the triangle inequality.
 ### Geometric structures are:
 - Circle
 - Rectangle

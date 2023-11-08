@@ -40,6 +40,6 @@ def perimeter(a, b):
         raise ValueError("Sides' length cannot be negative")
 
     try:
-        return 2*(a * b)
+        return 2*(a + b)
     except:
         raise "Undefined exception"
