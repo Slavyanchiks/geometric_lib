@@ -1,7 +1,7 @@
 from unittest import TestCase
 from triangle import area, perimeter
 
-class RectangleTestCase(TestCase) :
+class TriangleTestCase(TestCase) :
     def test_area_positive_int(self):
         self.assertEqual(area(2, 2), 2)
 
