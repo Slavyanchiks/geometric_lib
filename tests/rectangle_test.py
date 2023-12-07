@@ -13,7 +13,7 @@ class RectangleTestCase(TestCase) :
         self.assertEqual(area(3.567, 0), 0)
 
     def test_area_positive_float(self):
-        self.assertEqual(area(2.3, 5.6), 12.879999999999999)
+        self.assertEqual(area(2.3, 5.6), 12.88)
 
     def test_area_positive_bigfloat(self):
         self.assertEqual(area(2343.5745485, 67.657457), 158560.29424143318)

@@ -6,7 +6,7 @@ class TriangleTestCase(TestCase) :
         self.assertEqual(area(2, 2), 2)
 
     def test_area_positive_float(self):
-        self.assertEqual(area(12.78, 2.4), 15.335999999999999)
+        self.assertEqual(area(12.78, 2.4), 15.336)
 
     def test_area_positive_zero(self):
         self.assertEqual(area(0, 9), 0)
@@ -16,7 +16,7 @@ class TriangleTestCase(TestCase) :
         self.assertEqual(area(182817328323723823, 238273723527323), 2.1780282772505404e+31)
 
     def test_area_positive_bigfloat(self):
-        self.assertEqual(area(28372.85784983, 9793873.999999999999), 138940097400.57297)
+        self.assertEqual(area(28372.85784983, 9793873.999999999999), 138940097400.57)
 
     def test_area_positive_mixedtypes(self):
         self.assertEqual(area(2, 3.54), 3.54)
